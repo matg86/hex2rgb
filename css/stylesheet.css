@@ -1,0 +1,82 @@
+/*Main Body Styling*/
+body {
+  background-color:white;
+}
+
+
+/*Main styling of the input fields*/
+#main {
+  width:100%;
+  position:fixed;
+  top:40%;
+  text-align:center;
+  font-size:1.2em;
+  color:#fff
+}
+
+.hex2rgb-inputs {
+  font-size: 1.4em;
+  display:inline-block;
+  width:200px;
+  border:none;
+  margin:0 auto;
+  text-align:center;
+  border-bottom:1px solid #fff;
+  background-color:rgba(51,51,51, 0.3);
+  border-radius:10px;
+  margin-top: 10px;
+}
+
+/*for chrome - clears blue outline on input fields*/
+:focus {
+  outline:0
+}
+
+
+
+
+/*Footer Styling*/
+footer{
+  width:100%;
+  position: fixed;
+  bottom:0;
+  text-align:center;
+  padding:0;
+}
+
+/*Logo Styling*/
+#h2r-title{
+  font-variant:small-caps;
+  color:black;
+  font-size:1em;
+  background-color: white;
+  font-family: 'Share Tech Mono', sans-serif ;
+  display: inline;
+  margin: 0 auto;
+}
+
+#h2r-title-span-1{
+  color:rgb(153,153,153);
+}
+
+#h2r-title-span-2{
+  color:rgb(0,60,197);
+  background-color: black;
+}
+
+#h2r-red{
+  color:rgb(216,0,0);
+}
+
+#h2r-green{
+  color: rgb(16,172,0);
+}
+
+/*Media Query for ipad and above*/
+@media only screen and (min-width : 768px) {
+.hex2rgb-inputs{
+  width:300px;
+  font-size: 2em;
+}
+
+}
