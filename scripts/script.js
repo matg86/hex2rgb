@@ -47,7 +47,7 @@ color = color.substr(1);
 
 
 //Checks if the code is too long (OR IF NaN) If so, it prints out a message informing the user
-  if(color.length != 6 || r == NaN || g == NaN || b == NaN){
+  if(color.length != 6 || r == isNaN || g == isNaN || b == isNaN){
   rgb.value = "Not a Code";
 }
 
@@ -68,6 +68,6 @@ else{
 // Declaring Enter/Return keypress to start conversion
 hex.onkeydown = function(event) {
   if (event.keyCode == 13) {
-    conColor()
+    conColor();
   }
-}
+};
